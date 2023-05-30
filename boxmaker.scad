@@ -16,7 +16,7 @@ module box_2d(box_inner, thickness, tabs, margin=2) {
 }
 
 // An assembled version of the box for previewing.
-module box_3d(inner, thickness, tabs) {
+module box_3d(box_inner, thickness, tabs) {
   layout_3d(box_inner, thickness) {
     side_a_top(box_inner, thickness, tabs);
     side_a(box_inner, thickness, tabs);
